@@ -5,8 +5,8 @@
 #include <stdint.h>
 #include <TM1637Display.h>
 
-#define DISPLAY_CLK A3
-#define DISPLAY_DIO A2
+#define DISPLAY_CLK 5
+#define DISPLAY_DIO 6
 #define DISPLAY_UPDATE 250
 
 namespace Displays {

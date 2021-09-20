@@ -5,9 +5,9 @@
 #include <Encoder.h>
 #include <JC_Button.h>
 
-#define ENCODER_PIN_1 2 // D2
-#define ENCODER_PIN_2 3 // D3
-#define BUTTON_MODE_SELECT 4 // D4
+#define ENCODER_PIN_1 2
+#define ENCODER_PIN_2 3
+#define BUTTON_MODE_SELECT 4
 #define BUTTON_LONG_PRESS 500
 
 namespace Inputs {
