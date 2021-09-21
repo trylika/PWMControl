@@ -5,8 +5,8 @@
 #include <Encoder.h>
 #include <JC_Button.h>
 
-#define ENCODER_PIN_1 2
-#define ENCODER_PIN_2 3
+#define ENCODER_PIN_1 3
+#define ENCODER_PIN_2 2
 #define BUTTON_MODE_SELECT 4
 #define BUTTON_LONG_PRESS 500
 
