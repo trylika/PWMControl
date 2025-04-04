@@ -11,8 +11,6 @@ void setup() {
 
     Inputs::init();
     Displays::init();
-
-    // Serial.begin(115200);
 }
 
 void loop() {
@@ -60,6 +58,7 @@ void loop() {
 void saveSettings() {
     int32_t stored;
     EEPROM.get(PWM_LEVEL_STORAGE_ADDRESS * sizeof(int32_t), stored);
+
     if (stored != pwmLevel){
         EEPROM.put(PWM_LEVEL_STORAGE_ADDRESS * sizeof(int32_t), pwmLevel);
     }
